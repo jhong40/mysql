@@ -1,5 +1,6 @@
 # mysql
 ### Install
+https://www.sqlshack.com/how-to-install-mysql-on-ubuntu-18-04/
 ```
 apt update
 apt install mysql-server -y
