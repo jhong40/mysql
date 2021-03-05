@@ -7,7 +7,7 @@ mysql --version
 systemctl status mysql
 mysql -u root -p
 ```
-### Create DB, Table
+### Create DB, Table - CRUD operation
 ```
 show databases;
 create database student;
