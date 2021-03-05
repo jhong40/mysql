@@ -21,3 +21,16 @@ source ~/tdata.sql
 exit 
 quit
 ```
+### Remote access
+/etc/mysql/mysql.conf.d
+bind-address        = 192.168.1.209
+
+```
+mysql> CREATE USER 'user'@'%' IDENTIFIED BY 'Password123$';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'user'@'%' WITH GRANT OPTION;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> FLUSH PRIVILEGES;
+```
