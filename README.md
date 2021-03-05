@@ -18,4 +18,6 @@ insert into class values (11, 'bilogy',4.8);
 select * from class;
 
 source ~/tdata.sql
+exit 
+quit
 ```
