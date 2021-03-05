@@ -24,8 +24,9 @@ quit
 ### Remote access
 /etc/mysql/mysql.conf.d
 bind-address        = 192.168.1.209
+```
 netstat -tulpn
-
+```
 ```
 mysql> CREATE USER 'user'@'%' IDENTIFIED BY 'xxxx';
 Query OK, 0 rows affected (0.00 sec)
