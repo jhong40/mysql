@@ -26,7 +26,7 @@ quit
 bind-address        = 192.168.1.209
 
 ```
-mysql> CREATE USER 'user'@'%' IDENTIFIED BY 'Password123$';
+mysql> CREATE USER 'user'@'%' IDENTIFIED BY 'xxxx';
 Query OK, 0 rows affected (0.00 sec)
 
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'user'@'%' WITH GRANT OPTION;
