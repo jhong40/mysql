@@ -23,8 +23,8 @@ exit
 quit
 ```
 ### Remote access
-/etc/mysql/mysql.conf.d
-bind-address        = 192.168.1.209
+> /etc/mysql/mysql.conf.d
+> bind-address        = 192.168.1.209
 ```
 netstat -tulpn
 ```
